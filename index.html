@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal portfollio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/3686c92cc4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="logo.jpg" class="logo" />
+        <!-- <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Work Areas</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul> -->
+      </nav>
+      <div class="header-text">
+        <p>Data Scientist / Data Analyst</p>
+        <h1>Hi, I'm <span>Abhay Singh,</span> <br />a data analyst and data scientist !!!<br>My portfolio demonstrates expertise in 
+          statistical analysis, machine learning, and data visualization,
+          <br> highlighting a track record of driving impactful insights for business advancement.</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- ......................About Me...................... -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="photoabhay.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+         
+
+          <p>
+              I have been born and brought up in Farrukhabad district,Uttar Pradesh. Currently I am persuing <span>M.C.A.</span>
+              from <span>JAMIA MILLIA ISLAMIA NEW DELHI.</span><br>I am passioanate about building excellent software that improves the lives of those around me.<br>
+              I have <span>5 star on Hackerrank </span>for solving coding problems.Apart from my technical stuffs.My strengths are I always try to make a good connection with new people so that I can learn something new from them.
+              My short term goal is to get a job in reputated company but long term goal is to become a professional <span>Analyst.</span>
+          .</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('Area of Interest')">Area of Interest</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</s>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Python</span></li>
+              <li><span>MS Excel</span></li>
+              <li><span>Mysql Database and Sql Query Language</span> </li>
+              <li><span>PowerBI and Tableau</span></li>
+              <li><span>Machine Learning</span></li>
+              <li><span>Visualization and Python Libraries-Numpy,Pandas etc</span></li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Area of Interest">
+            <ul>
+              <li><span>Data Science</span><br>Extracting actionable insights from complex datasets to drive informed decision-making.</li>
+              <li><span>Data analysis</span><br>Analyzing data to uncover valuable insights and inform decision-making processes </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Education">
+            <ul>
+              <li><span>2021-2023</span><br>M.C.A. ** Jamia Millia Islamia New Delhi **</li>
+              <li><span>2017-2020</span><br>Bachelor of Science ** Kanpur University **</li>
+              <li><span>2015-2017</span><br>Intermediate ** Jawahar Navodaya Vidyalaya Farrukhabad Uttar Pradesh **</li>
+              <li><span>2014-2015</span><br>High School ** Jawahar Navodaya Vidyalaya Farrukhabad Uttar Pradesh **</li>
+            </ul>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- .....................Work areas ................... -->
+  <div id="Work Areas">
+    <div class="container">
+      <h1 class="sub-title">Work Areas</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Data Analysis</h2>
+          <p>I'm passionate about leveraging data to drive insights and decision-making. Through diverse projects, I've mastered statistical analysis, data mining, and visualization using tools like Excel, Python, and SQL. From predicting customer behavior to optimizing operations, each project showcases the transformative impact of data analysis. With a keen eye for detail and a problem-solving mindset, I'm committed to making meaningful contributions in the field of data analysis.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-sharp fa-solid fa-crop-simple"></i>
+          <h2>Data Science</h2>
+          <p>Data science merges statistics, computer science, and domain expertise to extract insights from data. It employs techniques like machine learning and data mining to uncover patterns, utilizing Python, R, SQL, TensorFlow, and scikit-learn. Data scientists provide actionable insights through advanced algorithms and visualization, driving decision-making and innovation. With a focus on experimentation, data science optimizes processes and boosts efficiency, offering a competitive advantage in today's data-centric world.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Internship</h2>
+          <p>During my internship, I gained hands-on experience with essential technologies for modern data management and DevOps. I worked extensively with MySQL and SQL Server for database management, optimizing performance and executing queries. Additionally, I mastered AWS services like S3 and EC2, alongside DevOps tools such as Zabbix, Jenkins, Jira, and Confluence, streamlining project workflows and enhancing team efficiency. Proficiency in Linux systems administration ensured smooth operations across diverse environments. This internship equipped me with a comprehensive skill set in database management, cloud computing, and DevOps practices, ready for impactful contributions in future roles. </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+ 
+
+  <!-- .......................contact info............................. -->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>abhaysingh07082000@gmail.com</p>
+          <p><i class="fas fa-phone-square-alt"></i> 9696637657</p>
+          <p><i class="fa fa-whatsapp" ></i> 7880814200</p>
+          <div class="social-icon">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <a href="AbhaySinghCV.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your name">
+            <input type="email" name="email" placeholder="Your email">
+            <textarea name="Message" rows="6" placeholder="Discription"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="copyright">
+      <p>copyright &copy; myporifolio@co.in </p>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ................................scripting....................................../ -->
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link")
+      document.getElementById(tabname).classList.add('active-tab');
+    }
+
+  </script>
+</body>
+
+</html>
